@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body{
+    font-family: 'kaushan script';
+    font-size: 16px;
+    color: black;
+}
+h1{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+p{
+    text-align: justify;
+}

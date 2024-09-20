@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'love larry' ;
+    src: url('love larry ttf.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+h1{
+    font-family: 'love larry', Times, serif;
+}
