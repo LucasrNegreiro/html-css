@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+#cabeçalho{
+    background-color: aqua;
+}
+
+#cabeçalho h1{
+    text-align: center;
+}
+
+#cabeçalho li{
+    padding: 5px;
+    margin: 2px;
+    display: inline;
+}
+
+#historia{
+    height: 100vh;
+}
