@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+/*typical device breakpoints 
+pequenas telas:até 600px
+celular: de 600px ate 768px
+Tablet: 768px ate 992px
+desktop: 992px ate 1200
+grandes telas: acima de 1200px
+*/
+
+
+@media screen and(max-width:600px){
+    body{
+        background-image: url(../imagens/back-phone.jpg);
+
+    }
+}
