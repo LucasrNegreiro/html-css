@@ -10,7 +10,6 @@ header{
 }
 
 header h1{
-    background-color: bisque;
     height: 100px;
     text-align: center;
     padding: 10px;
@@ -33,11 +32,12 @@ menu{
     display: none;
 }
 menu a{
+    background-color: darkgray;
     display: block;
     padding: 10px;
     text-align: center;
     text-decoration: none;
-    border-top: 2px solid gra;
+    
 }
 
 menu a:hover{
@@ -48,6 +48,7 @@ menu ul{
     text-align: center;
     padding: 10px;
     list-style-type: none;
+    
     
 }
 

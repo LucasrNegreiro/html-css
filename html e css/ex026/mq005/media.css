@@ -8,10 +8,19 @@ desktop: 992px ate 1200
 grandes telas: acima de 1200px
 */
 
+ 
+@media screen and (min-width: 992px) {
+    #burguer{
+        display: none;
+    }
 
-@media screen and(max-width:600px){
-    body{
-        background-image: url(../imagens/back-phone.jpg);
-
+    menu{
+        display: block;
+    }
+    menu lI{
+        display: inline-block;
+    }
+    main{
+        width: 768px;
     }
 }
