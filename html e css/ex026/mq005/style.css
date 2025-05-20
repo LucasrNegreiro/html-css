@@ -38,6 +38,7 @@ menu a{
     text-align: center;
     text-decoration: none;
     
+    transition: topleft .3s;
 }
 
 menu a:hover{
