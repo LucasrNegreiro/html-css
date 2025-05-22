@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+.conteiner{
+
+    display: flex;
+    background-color: lightsalmon;
+    flex-direction: row;
+    flex-wrap: wrap-reverse;
+    
+    
+}
+
+.item{
+    
+    text-align: center;
+    background-color: lightblue;
+    border: 1px solid black;
+    padding: 10px;
+    
+    
+   
+}
