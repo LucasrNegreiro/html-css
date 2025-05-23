@@ -1,0 +1,22 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.conteiner{
+    background-color: lightcoral;
+    display: flex;
+}
+
+.item{
+    background-color: lightcyan;
+    border: 1px solid black;
+    flex-basis: 150px;
+    flex-grow: 0;
+    flex-shrink: 1;
+
+}
