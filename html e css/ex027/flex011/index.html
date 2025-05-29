@@ -4,13 +4,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TESTANDO FLEXBOX</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 600px)">
+    <link rel="stylesheet" href="mobile.css">
+
 </head>
 <body>
     <header>
         <h1>MEU SITE</h1>
-        <nav>
+       <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i> 
+        <nav id="menu">
             <a href="#">Opção 1</a>
             <a href="#">Opção 2</a>
             <a href="#">Opção 3</a>
@@ -27,6 +31,18 @@
 
     </main>
 
+    <script>
+        function clickMenu(){
+            if(menu.style.display == 'flex'){
+                menu.style.display = 'none'
+            }else {
+                menu.style.display = 'flex'
+            }
+                
+            
+
+        }
+    </script>
     
 </body>
 </html>

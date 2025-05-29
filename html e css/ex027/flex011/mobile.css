@@ -7,7 +7,33 @@
     box-sizing: border-box;
 }
 
-header, header nav{
+ @media screen and (max-width: 600px){
+    
+#burguer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    background-color: rgb(31, 31, 28);
+    text-align: center;
+    padding: 10px;
+}
+
+#burguer:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    
+}
+
+header, header{
     flex-direction: column;
     flex-wrap: nowrap;
 }
@@ -20,3 +46,4 @@ header nav a{
     width: 90vw;
     margin: 3px;
 }
+ }
