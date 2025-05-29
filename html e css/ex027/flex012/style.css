@@ -7,3 +7,77 @@
     box-sizing: border-box;
 
 }
+body{
+    font-size: 1em;
+    line-height: 1.5em;
+    
+}
+
+p{
+    margin-bottom: 10px;
+    text-align: justify;
+}
+h1, h2{
+    margin-bottom: 20px;
+    line-height: 1.2em;
+    text-align: left;
+}
+
+header, .normal{
+    background-color: lightgray;
+    padding: 20px;
+
+}
+
+
+
+.flex-content{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 20px;
+    background-color: gray;
+}
+
+
+.text-media{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    
+}
+
+.media-text{
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap-reverse;
+    
+}
+
+.text{
+    flex: 1 1 500px;
+
+    
+
+}
+
+.media{
+    flex: 1 0 400px;
+    
+}
+
+.media img{
+    display: block;
+    margin: auto;
+    width: 400px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.media iframe{
+    display: block;
+    margin: auto;
+    padding: 0px 20px;
+    
+    
+}
+
