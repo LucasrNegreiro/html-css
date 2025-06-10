@@ -42,4 +42,10 @@ primeiro vem o align content depois o justify
 place content: start end;
 
 
+função repeat
+
+grid-template-columns:repeat(3, auto); substitui o auto auto auto.
+grid-template-row:repeat(3, 100px); substitui o 100px 100px 100px
+
+
 */
