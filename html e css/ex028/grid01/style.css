@@ -50,4 +50,20 @@ grid-template-row:repeat(3, 100px); substitui o 100px 100px 100px
 grid-template: repeat(3, 100px) / repeat(3, auto); substitui a função acima simplificando ela
 
 
+
+UNIDADE FRACIONAL
+
+da para usar fr no lugar do auto
+grid-template-columns: 1fr 1fr 1fr;
+
+
+se eu quiser uma fração maior q a outra posso fazer assim
+
+sendo a coluna do meio maior q as outras gerando 4 colunas porem uma fr ocupa espaço de 2
+grid-template-columns: 1fr 2fr 1fr;
+
+posso misturar unidades tambem ex:
+
+nesse exemplo vou ter 4 colunas 2 com tamanhos diferentes e as 2 fr com tamanhos iguais
+grid-template-columns: 100px 20% 1fr 1fr;
 */
