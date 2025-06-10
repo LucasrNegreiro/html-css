@@ -47,5 +47,7 @@ função repeat
 grid-template-columns:repeat(3, auto); substitui o auto auto auto.
 grid-template-row:repeat(3, 100px); substitui o 100px 100px 100px
 
+grid-template: repeat(3, 100px) / repeat(3, auto); substitui a função acima simplificando ela
+
 
 */
