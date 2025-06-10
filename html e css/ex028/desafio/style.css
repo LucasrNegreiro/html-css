@@ -1,21 +1,21 @@
 @charset "UTF-8";
 
-*{
+* {
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.container{
+.container {
     display: grid;
     border: 3px solid black;
-    grid-template:200px 80px 400px 50px / 1fr 2fr 1fr;
+    grid-template: 200px 80px 400px 50px / 1fr 2fr 1fr;
     gap: 10px;
-    
+
 }
 
-.header{
+.header {
     grid-row: 1/2;
     grid-column: 1/4;
     text-align: center;
@@ -23,7 +23,7 @@
     background-color: aquamarine;
 }
 
-.menu{
+.menu {
     align-content: center;
     grid-row: 2/3;
     grid-column: 1/4;
@@ -32,7 +32,7 @@
 }
 
 
-.content{
+.content {
     align-content: center;
     text-align: center;
     grid-row: 3/4;
@@ -40,7 +40,7 @@
     background-color: blue;
 }
 
-.second{
+.second {
     grid-row: 3/4;
     grid-column: -2/-1;
     text-align: center;
@@ -49,11 +49,11 @@
     background-color: aqua;
 }
 
-.footer{
+.footer {
     grid-row: 4/5;
     grid-column: 1/-1;
     text-align: center;
     align-content: center;
     background-color: yellow;
-    
+
 }
