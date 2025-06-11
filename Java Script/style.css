@@ -5,7 +5,9 @@
     padding: 0px;
     box-sizing: border-box;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
+
 
 .titulo {
     display: flex;
@@ -13,27 +15,64 @@
     align-items: center;
     padding: 10px;
     background-color: lightcoral;
+    flex-flow: row wrap;
 
 }
+
+
 
 #container {
-    background-color: brown;
+    border-radius: 5px;
+    background-color: rgb(173, 95, 95);
     display: flex;
-    height: 80vh;
-    gap: 10px;
-    justify-content: space-between;
     align-items: center;
+    border: 1px solid black;
+    flex-flow: row wrap-reverse;
+    gap: 50px;
+
 }
 
-.imagem img {
+
+.conteudo {
+    /*flex grow vai crescer normalmente  flex shrink vai encolher normalmente e flex basis*/
+    flex: 1 1 400px;
+
+
+}
+
+
+.imagem img{
+    width: 400px;
     border-radius: 10px;
-    margin: 0px 10px;
-    flex-wrap: wrap-reverse;
+}
+.imagem{
+    display: block;
+    margin: auto;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-items: end;
+    height: 6vh;
+    background-color: aqua;
+
 }
 
 
 
-.conteudo p {
-    background-color: aquamarine;
-    flex-wrap: wrap;
+@media screen (min-width:600px) {
+
+    .titulo h1{
+        text-align:center;
+    }
+
+
+    .titulo ul{
+    margin-top: 20px;
+    text-align: center;
+    flex: 1 1 500px;
+}
+    
 }
