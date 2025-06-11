@@ -11,12 +11,23 @@
 
 .titulo {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px;
     background-color: lightcoral;
     flex-flow: row wrap;
 
+}
+
+.titulo ul a{
+    text-decoration: none;
+    margin: 10px;
+    color: white;
+}
+
+.titulo ul a:hover{
+    cursor: pointer;
+    text-decoration:underline;
 }
 
 
@@ -62,9 +73,10 @@
 
 
 
-@media screen (min-width:600px) {
+@media screen and (max-width:600px) {
 
-    .titulo h1{
+    .titulo {
+        display: block;
         text-align:center;
     }
 
@@ -73,6 +85,14 @@
     margin-top: 20px;
     text-align: center;
     flex: 1 1 500px;
+}
+
+.titulo ul a{
+    
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+    margin: 10px 0px 0px 0px;
 }
     
 }
