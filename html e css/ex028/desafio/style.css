@@ -10,7 +10,7 @@
 .container {
     height: 100vh;
     display: grid;
-    grid-template: 80px 40px 400px 40px / 1fr  150px;
+    grid-template: 80px 40px 1fr 40px / 1fr  150px;
     gap: 5px;
 
 }
@@ -44,7 +44,7 @@
     grid-area: 3 / -2 / 4 / -1;
     text-align: center;
     align-content: center;
-
+   
     background-color: aqua;
 }
 
