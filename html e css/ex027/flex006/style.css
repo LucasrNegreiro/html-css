@@ -12,7 +12,7 @@
 .conteiner{
     
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     align-content: space-evenly;
     background-color: lightsalmon;
     height: 400px;
