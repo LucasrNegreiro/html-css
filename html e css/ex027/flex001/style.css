@@ -10,10 +10,9 @@
 }
 
 .conteiner{
-    height: 100vh;
     display: flex;
     background-color: lightsalmon;
-    flex-direction: column;
+    flex-direction: row;
     
 }
 
